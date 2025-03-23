@@ -9,10 +9,10 @@
     </parent>
 
 
-    <groupId>org.example</groupId>
-    <artifactId>flowsphere-server</artifactId>
+    <groupId>io.github.thalossphere-projects</groupId>
+    <artifactId>thalossphere-server</artifactId>
     <version>1.2.0-RELEASE</version>
-    <name>flowsphere-server</name>
+    <name>thalossphere-server</name>
 
     <properties>
 
@@ -89,14 +89,14 @@
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>flowsphere-server-bin</id>
+                        <id>thalossphere-server-bin</id>
                         <goals>
                             <goal>single</goal>
                         </goals>
                         <phase>package</phase>
                         <configuration>
                             <descriptors>
-                                <descriptor>src/main/assembly/flowsphere-server-binary-distribution.xml</descriptor>
+                                <descriptor>src/main/assembly/thalossphere-server-binary-distribution.xml</descriptor>
                             </descriptors>
                         </configuration>
                     </execution>
